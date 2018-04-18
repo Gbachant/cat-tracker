@@ -2,18 +2,40 @@
 <html>
 <head>
   <title>Cat Tracker</title>
-  <script src="https://unpkg.com/react@15/dist/react.min.js"> .</script><script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"
-  </script>
-  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div id="root"></div>
-    <script type="text/babel">
-
-    /*
-    ADD REACT CODE HERE
-    */
-
-    </script>
+  <div class="container">
+    <h2>Welcome To Cat Tracker!</h2>
+    <p>Cat tracker is an opensource webapp for organizing medical data such as vaccine history for your pets.</p>
+    <form>
+      <div class="form-group">
+        <label for="usr">Name:</label>
+        <input type="text" placeholder="username" class="form-control" id="usr" name="userid">
+      </div>
+      <div class="form-group">
+        <label for="pwd">Password:</label>
+        <input type="password" placeholder="password" class="form-control" id="pwd" name="pswrd">
+      </div>
+      <div>
+        <input type="button" onclick="check(this.form)" value="Login"/>
+      </div>
+    </form>
+  </div>
+  <script language="javascript">
+  function check(form)
+    {
+      if(form.userid.value == "aub" && form.pswrd.value == "123")
+        {
+          window.open('\aub.html');
+        }
+      else
+        {
+          alert("Username and password don't match.");
+        }
+    }
+  </script>
 </body>
 </html>
