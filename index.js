@@ -14,3 +14,11 @@ class Animal {
   this.age = age;
   this.weight = weight;
 }
+
+class Cat extends Animal {
+
+}
+
+class Dog extends Animal {
+  
+}
