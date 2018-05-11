@@ -5,3 +5,12 @@ function check(form) {
     alert("Username and password don't match.");
   }
 }
+
+class Animal {
+  constructor(name: string, breed: string, age: number, weight: number);
+  }
+  this.name = name;
+  this.breed = breed;
+  this.age = age;
+  this.weight = weight;
+}
