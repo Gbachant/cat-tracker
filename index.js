@@ -7,7 +7,7 @@ function check(form) {
 }
 
 class Animal {
-  constructor(name: string, breed: string, age: number, weight: number);
+  constructor(name, breed, age, weight);
   }
   this.name = name;
   this.breed = breed;
