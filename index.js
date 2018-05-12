@@ -7,13 +7,13 @@ function check(form) {
 }
 
 class Animal {
-  constructor(name, sex, breed, age, weight);
+  constructor(name, sex, breed, age, weight){
+    this.name = name;
+    this.sex = sex;
+    this.breed = breed;
+    this.age = age;
+    this.weight = weight;
   }
-  this.name = name;
-  this.sex = sex;
-  this.breed = breed;
-  this.age = age;
-  this.weight = weight;
 }
 
 class Cat extends Animal {
