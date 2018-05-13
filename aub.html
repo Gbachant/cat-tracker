@@ -37,7 +37,20 @@
       <label class="checkbox-inline"><input type="checkbox" value="">Grey</label>
     </div>
     <button class="btn btn-default" id="createnew" onclick="printInfo()">OK</button>
-  </div>
+  </div>  
+  <script src="https://www.gstatic.com/firebasejs/5.0.2/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyBsUz7xIhdKOc4tGnbZk6QYnpRSosTpPk0",
+      authDomain: "cat-tracker-21946.firebaseapp.com",
+      databaseURL: "https://cat-tracker-21946.firebaseio.com",
+      projectId: "cat-tracker-21946",
+      storageBucket: "cat-tracker-21946.appspot.com",
+      messagingSenderId: "627966020887"
+    };
+    firebase.initializeApp(config);
+  </script>
   <script language="javascript" src="index.js"></script>
 </body>
 </html>
